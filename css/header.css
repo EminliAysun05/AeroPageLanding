@@ -1,0 +1,88 @@
+@import url("reset.css");
+@import url("main.css");
+header{
+    font-family: sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+header .bg-image{
+    background-image: url(../images/download.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+    padding: 0 50px;
+    background-color: rgba(250, 250, 250, 0.947);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    
+}
+header .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 30px;
+}
+header .header-logo img{
+    width: 50%;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+header nav ul li{
+ list-style-type: none;   
+}
+header nav ul li a{
+    color: black;
+text-decoration: none;
+font-size: 13px;
+font-weight: 700;
+}
+
+header nav ul li a {
+    width: 3%;
+}
+header .download-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #EA580C;
+    color: white;
+    height: 3vh;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 15px;
+    padding: 8px;
+    cursor: pointer;
+   span{
+     line-height: 1.5rem;
+   }
+}
+header .landing-down-icon a{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+header .download-button:hover{
+    color: #EA580C;
+    background-color: white;
+    transition-duration: 1.3s;
+}
