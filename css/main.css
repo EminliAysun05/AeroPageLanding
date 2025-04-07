@@ -91,3 +91,10 @@ header .bg-image .main-content {
     color: white;
     transition: 0.3s;
 }
+main .about-page{
+    z-index: 10;
+  min-height: 100vh;
+  background-color: red; /* Test üçün fon rəngi */
+  padding: 60px 30px;
+  box-sizing: border-box;
+}

@@ -2,7 +2,7 @@
 @import url("main.css");
 header{
     font-family: sans-serif;
-    position: sticky;
+    
     top: 0;
     z-index: 1;
     background-color: white;
@@ -16,8 +16,7 @@ header .bg-image{
     flex-direction: column;
     position: relative;
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+   
     height: 100vh;
     padding: 0 50px;
     background-color: rgba(250, 250, 250, 0.947);
